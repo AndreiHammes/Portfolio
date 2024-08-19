@@ -5,7 +5,7 @@ Meu primeiro portfólio desenvolvido para apresentação e armazenar meus projet
 ### Atualizações ✅
 - [x] Arquivo README contendo a descrição do projeto
 - [x] Sessão de contato
-- [ ] Design responsivo para diversos dispositivos
+- [x] Design responsivo para diversos dispositivos
 - [ ] Sessão separada para armazenar os projetos
 
 ### Tecnologias utilizadas 🛠️
