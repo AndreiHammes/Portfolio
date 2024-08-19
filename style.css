@@ -32,10 +32,41 @@ body {
 }
 
 
+/* h1 {
+    margin: 0;
+    font-size: 47px;
+    color: linear-gradient(-45deg, #1F6FEB, #58A6FF) no-repeat;
+    animation: gradient 10s ease infinite;
+    
+} */
+
 h1 {
     margin: 0;
     font-size: 47px;
+    background: linear-gradient(-90deg, #58A6FF, #1f6feb, #6b27a1, #ce1bb6) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
 }
+
+span{
+    color: yellow;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 a {
     color: #58A6FF;
