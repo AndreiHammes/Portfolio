@@ -31,18 +31,9 @@ body {
     gap: 100px;
 }
 
-
-/* h1 {
-    margin: 0;
-    font-size: 47px;
-    color: linear-gradient(-45deg, #1F6FEB, #58A6FF) no-repeat;
-    animation: gradient 10s ease infinite;
-    
-} */
-
 h1 {
     margin: 0;
-    font-size: 47px;
+    font-size: 40px;
     background: linear-gradient(-90deg, #58A6FF, #1f6feb, #6b27a1, #ce1bb6) no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
@@ -134,6 +125,12 @@ a:hover {
 
     h1 {
         font-size: 28px;
+        background: linear-gradient(-90deg, #81b5f0, #5f91dd, #9d52da, #e077d2) no-repeat;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+        animation: gradient 10s ease infinite;
+        background-size: 200% 200%;
     }
 
     h2 {
@@ -146,5 +143,13 @@ a:hover {
 
     .curriculo {
         width: 100%;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    ul {
+        padding-left: 0;
     }
 }
