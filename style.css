@@ -37,7 +37,8 @@ body {
 
 h1 {
     margin: 0;
-    font-size: 45px;
+    font-size: 40px;
+    font-weight: 700;
     /* background: linear-gradient(-90deg, #58A6FF, #1f6feb, #6b27a1, #ce1bb6) no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
@@ -48,7 +49,7 @@ h1 {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 span{
@@ -128,6 +129,11 @@ a:hover {
 }
 
 @media screen and (max-width: 480px) {
+
+    .body {
+        background-color: #131922;
+    }
+
     .perfil {
         width: 120px;
     }
