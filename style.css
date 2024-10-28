@@ -36,9 +36,10 @@ body {
 }
 
 h1 {
+    font-family: "Lato", serif;
     margin: 0;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 600;
     /* background: linear-gradient(-90deg, #58A6FF, #1f6feb, #6b27a1, #ce1bb6) no-repeat;
     background-clip: text;
     -webkit-background-clip: text;
