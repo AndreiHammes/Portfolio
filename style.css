@@ -103,6 +103,17 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 1440px) {
+    .header-container {
+        gap: 25px;
+    }
+
+    h1 {
+        font-size: 34px;
+        white-space: nowrap; /* Impede a quebra de linha */
+    }
+}
+
 @media screen and (max-width: 768px) {
     body {
         padding: 30px;
@@ -129,7 +140,7 @@ a:hover {
 @media screen and (max-width: 480px) {
     body {
         padding: 20px;
-        background-color: #131922; /* Ajustado para um tom mais escuro */
+        background-color: #131922;
     }
 
     .perfil {
@@ -139,6 +150,7 @@ a:hover {
 
     h1 {
         font-size: 28px;
+        white-space: normal; 
     }
 
     h2 {
