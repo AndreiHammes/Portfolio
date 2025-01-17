@@ -6,8 +6,11 @@ body {
     padding: 0;
     font-size: 17.5px;
     line-height: 1.5;
-    word-wrap: break-word;
+    word-wrap: break-word;}
+
+main {
     padding: 80px 160px 80px 160px;
+
 }
 
 .center{
@@ -22,6 +25,21 @@ body {
     &:hover {
         transform: scale(1.04);
     }
+}
+
+header {
+        width: 100%;
+        overflow: hidden; /* Garante que a imagem não ultrapasse as bordas */
+        display: flex;
+        justify-content: center; /* Centraliza a imagem horizontalmente */
+        align-items: center; /* Centraliza a imagem verticalmente */
+}
+
+header img {
+    width: 100%; /* Ocupa 100% da largura do header */
+    height: auto; /* Mantém a proporção da imagem */
+    max-height: 400px; /* Define uma altura máxima para a imagem */
+    object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
 }
 
 .header-container {
@@ -167,6 +185,6 @@ a:hover {
     }
 
     ul {
-        padding-left: 0;
+        padding-left: 0;
     }
-}
+    }
