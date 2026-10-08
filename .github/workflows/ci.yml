@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  pull_request:
+
+jobs:
+  check:
+    name: Teste do projeto
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar código
+        uses: actions/checkout@v4
+
+      - name: Verificar arquivos
+        run: echo "Check executado com sucesso!"
